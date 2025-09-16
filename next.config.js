@@ -7,12 +7,12 @@ const nextConfig = {
     unoptimized: true
   },
   
-  // GitHub Pages configuration
+  // GitHub Pages configuration - اصلاح شده برای repository صحیح
   assetPrefix: process.env.NODE_ENV === 'production' 
-    ? '/mojtaba-tahrir' 
+    ? '/MojtabaTahrir' 
     : '',
   basePath: process.env.NODE_ENV === 'production' 
-    ? '/mojtaba-tahrir' 
+    ? '/MojtabaTahrir' 
     : '',
 
   // Experimental features
@@ -59,6 +59,5 @@ const nextConfig = {
     ]
   },
 }
-
 
 module.exports = nextConfig
