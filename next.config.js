@@ -9,10 +9,10 @@ const nextConfig = {
   
   // GitHub Pages configuration
   assetPrefix: process.env.NODE_ENV === 'production' 
-    ? 'https://zarei176.github.io/MojtabaTahrir' 
+    ? '/mojtaba-tahrir' 
     : '',
   basePath: process.env.NODE_ENV === 'production' 
-    ? '/MojtabaTahrir' 
+    ? '/mojtaba-tahrir' 
     : '',
 
   // Experimental features
@@ -59,5 +59,6 @@ const nextConfig = {
     ]
   },
 }
+
 
 module.exports = nextConfig
